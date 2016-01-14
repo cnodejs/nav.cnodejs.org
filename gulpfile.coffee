@@ -33,7 +33,7 @@ gulp.task 'rsync', (cb) ->
 gulp.task 'html', (cb) ->
   html = require('./entry/template')
   fs = require('fs')
-  fs.writeFile 'build/index.html', html(), cb
+  fs.writeFile 'build/index.html', html(config), cb
 
 gulp.task 'del', (cb) ->
   del = require('del')

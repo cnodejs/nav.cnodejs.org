@@ -22,9 +22,6 @@ exports.column =
 
 exports.footer =
   display: 'flex'
-  flexDirection: 'row'
+  flexDirection: 'column'
   alignItems: 'center'
   justifyContent: 'center'
-  fontSize: 13
-  color: hsl 0, 0, 80
-  height: 100

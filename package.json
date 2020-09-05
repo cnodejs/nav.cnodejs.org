@@ -6,7 +6,7 @@
   "dependencies": {
     "classnames": "^1.2.0",
     "hsl": "^0.1.1",
-    "react": "^0.13.1"
+    "react": "^16.13.1"
   },
   "devDependencies": {
     "autoprefixer-loader": "^2.0.0",
